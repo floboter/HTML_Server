@@ -1,0 +1,66 @@
+body{
+    text-align: center;
+    /*background-image:linear-gradient(90deg, rgb(00,00,255)  0%, rgb(00,100,230) 25%, rgb(100,200,255)  50%, rgb(70,200,240)  75%);*/
+    background-image: url("ServerBackground.jpg");
+    background-size: 100% 175%;
+}
+.container{
+    margin-top: 2%;
+}
+a{
+    color: #FAFAFAFA;
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+#Uhr{
+    font-size: 150px;
+    color: #cfcff3;
+    cursor: default;
+}
+.trigger{
+    position: relative;
+    display: block;
+    width: 500px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.button{
+    position: relative;
+    display: block;
+    width: 500px;
+    height: 100px;
+    background-image: linear-gradient(145deg, rgb(200,200,200)  0%, rgb(130,130,130)  70%);
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 70px;
+    color: #FAFAFAFA;
+    opacity: 0.5;
+}
+.trigger:hover>.button{
+    background-image: linear-gradient(145deg, rgb(200,220,200)  0%, rgb(240,240,240)  70%);
+   cursor: pointer;
+   animation: btnHover 500ms ease-in-out forwards;
+    border-radius: 20px;
+}
+
+@keyframes btnHover {
+    0% {
+        transform: rotatex(0deg) translateY(0px) translateX(0px);
+    }
+    33% {
+        transform: rotatex(50deg) translateY(20px) translateX(-20px);
+    }
+    66% {
+        transform: rotatex(20deg) translateY(-20px) translateX(20px);
+    }
+    100% {
+        transform: rotatex(0deg) translateY(0px) translateX(0px);
+    }
+}
