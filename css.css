@@ -3,7 +3,7 @@ body{
     /*background-image:linear-gradient(90deg, rgb(00,00,255)  0%, rgb(00,100,230) 25%, rgb(100,200,255)  50%, rgb(70,200,240)  75%);
      background-image: url("ServerBackground.jpg");
      background-size: 100% 175%;*/
-    background-color: #33ff00;
+    background-color: darkseagreen;
 }
 .container{
     margin-top: 2%;
